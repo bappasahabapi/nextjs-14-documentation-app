@@ -8,10 +8,28 @@ yarn dev
 
 ```
 
-- Gray matter: used for parsing md file to html format  
+
 
 
 Install dependencies:
+
+- `npm i gray-matter`
+- `npm i unified`
+- `npm i rehype-document`
+- `npm i rehype-format@1.0.0`
+- `npm i rehype-stringify`
+- `npm i remark-rehype`
+- ` npm i rehype-pretty-code`
+- `npm install -D @tailwindcss/typography`
+
+- [Gray matter: used for parsing md file to html format](https://www.npmjs.com/package/gray-matter)  
+- [Gray matter: used for processing the content](https://www.npmjs.com/package/unified)  
+- [rehype-document: useful when going from a markdown file that represents an article and turning it into a complete HTML document.](https://www.npmjs.com/package/rehype-document)  
+
+- 
+
+--- 
+
 
 - `npx create-next-app@latest`
 - `yarn add gray-matter remark remark-html`

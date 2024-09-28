@@ -7,3 +7,9 @@ export function getDocumentByAuthor(docsArray, author){
 export function getDocumentByTags(docsArray, tag){
     return docsArray.filter((doc)=>doc.tags.some(inputTag=>inputTag===tag))
 }
+
+const sum =(a,b,c=9)=>{
+    return a+b;
+}
+
+sum(2,3)

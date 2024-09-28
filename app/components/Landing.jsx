@@ -24,6 +24,12 @@ const Landing = () => {
                   className="inline-flex justify-center rounded-lg bg-slate-900 px-4 py-3 text-sm font-semibold text-white hover:bg-slate-700">
                   <span>Get Started</span>
                 </Link>
+                <Link
+                  href="/notes
+                  "
+                  className="inline-flex justify-center rounded-lg bg-slate-900 px-4 py-3 text-sm font-semibold text-white hover:bg-slate-700">
+                  <span>Notes</span>
+                </Link>
               </div>
             </div>
             <div className="relative lg:col-span-3">
